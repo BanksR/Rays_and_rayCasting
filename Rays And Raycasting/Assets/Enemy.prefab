@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 223068727284551226}
   - component: {fileID: 114797233982234308}
   - component: {fileID: 114270536086606390}
+  - component: {fileID: 114130196718099020}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -140,7 +141,7 @@ GameObject:
   - component: {fileID: 114488977682828812}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,6 +202,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1997521523231136}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114130196718099020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1510484865915966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c03a405d99eb43d9aa453169c8d4606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114205174798607314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -283,6 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 100
+  knockbackForce: 0.2
   hpSlider: {fileID: 114672544561878956}
 --- !u!114 &114614897783370506
 MonoBehaviour:
@@ -457,14 +470,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510484865915966}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.2016428, y: 0.39022776, z: 0.14201835, w: 0.88707}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.008395736, y: 0.008395736, z: 0.008395736}
   m_Children:
   - {fileID: 224770068204081874}
   m_Father: {fileID: 4638857186941008}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 47.49, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.63}

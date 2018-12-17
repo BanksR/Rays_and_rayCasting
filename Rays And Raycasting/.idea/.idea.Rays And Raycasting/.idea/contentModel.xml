@@ -5,8 +5,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="EnemyScript.cs" t="Include" />
+        <e p="MouseClickRay.cs" t="Include" />
         <e p="ParticleKiller.cs" t="Include" />
         <e p="RayCasting.cs" t="Include" />
+        <e p="UIRotateToward.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
