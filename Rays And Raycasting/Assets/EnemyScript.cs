@@ -9,6 +9,9 @@ public class EnemyScript : MonoBehaviour
 	private int _hitPoints;
 	public float knockbackForce = 0.2f;
 
+	public float speed = .2f;
+	public Transform playerPos;
+
 	public Slider hpSlider;
 
 	public int HitPoints
@@ -31,9 +34,11 @@ public class EnemyScript : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
-		
+		Vector3 relPos = playerPos.position - transform.position;
+
+		transform.Translate(relPos * speed);
 	}
 
 	public void TakeDamage(int damage)
