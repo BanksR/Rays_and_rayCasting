@@ -7,6 +7,7 @@ public class EnemyScript : MonoBehaviour
 {
 	public int maxHP = 100;
 	private int _hitPoints;
+	public float knockbackForce = 0.2f;
 
 	public Slider hpSlider;
 
@@ -42,7 +43,17 @@ public class EnemyScript : MonoBehaviour
 		{
 			HitPoints -= damage;
 		}
-
 		
+		else if (_hitPoints <= 0)
+		{
+			gameObject.SetActive(false);
+		}
+
+
+	}
+
+	public void KnockBack(Vector3 dir)
+	{
+		transform.Translate(Vector3.Normalize(dir) * knockbackForce);
 	}
 }

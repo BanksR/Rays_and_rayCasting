@@ -39,7 +39,9 @@ public class RayCasting : MonoBehaviour
 			if (hit.collider != null)
 			{
 				hit.collider.GetComponent<EnemyScript>().TakeDamage(5);
+				hit.collider.GetComponent<EnemyScript>().KnockBack(hit.point - transform.position);
 				Impact(hit.point);
+				
 			}
 		}
 
