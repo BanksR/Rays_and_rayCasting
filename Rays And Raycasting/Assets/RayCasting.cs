@@ -8,6 +8,7 @@ public class RayCasting : MonoBehaviour
 	public float turnSpeed = 5f;
 
 	public float raylen = 5f;
+	public GameObject impactParticles;
 	
 	// Use this for initialization
 	void Start () 
@@ -22,7 +23,7 @@ public class RayCasting : MonoBehaviour
 		
 		transform.Rotate(new Vector3(0f, h * turnSpeed, 0f));
 
-		if (Input.GetMouseButton(0))
+		if (Input.GetMouseButtonDown(0))
 		{
 			Shoot();
 		}
@@ -37,7 +38,8 @@ public class RayCasting : MonoBehaviour
 		{
 			if (hit.collider != null)
 			{
-				hit.collider.GetComponent<MeshRenderer>().material.color = Color.red;
+				hit.collider.GetComponent<EnemyScript>().TakeDamage(5);
+				Impact(hit.point);
 			}
 		}
 
@@ -46,5 +48,10 @@ public class RayCasting : MonoBehaviour
 	private void OnDrawGizmos()
 	{
 		Gizmos.DrawRay(transform.position, transform.forward * raylen);
+	}
+
+	void Impact(Vector3 pos)
+	{
+		Instantiate(impactParticles, pos, Quaternion.identity);
 	}
 }
