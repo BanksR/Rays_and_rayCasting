@@ -5,15 +5,24 @@ using UnityEngine.UI;
 
 public class EnemyScript : MonoBehaviour
 {
+	
+	// This script defines the behaviour of our enemies
+	
+	// Basic enemy parameters
 	public int maxHP = 100;
 	private int _hitPoints;
 	public float knockbackForce = 0.2f;
 
 	public float speed = .2f;
+	
+	// A reference to our player position
 	public Transform playerPos;
 
+	// A reference to the enemy health bar UI asset
 	public Slider hpSlider;
 
+	// This is a public property which can be accessed from other scripts.
+	// Its job is to GET or SET the _hitpoints variable
 	public int HitPoints
 	{
 		get { return _hitPoints; }
@@ -31,11 +40,14 @@ public class EnemyScript : MonoBehaviour
 		HitPoints = maxHP;
 		hpSlider.maxValue = maxHP;
 		hpSlider.value = maxHP;
+
+		playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
+		// Here we create a new vector pointing to the player and move the enemy toward it
 		Vector3 relPos = playerPos.position - transform.position;
 
 		transform.Translate(relPos * speed);
