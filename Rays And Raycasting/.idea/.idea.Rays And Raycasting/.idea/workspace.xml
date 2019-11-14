@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb640b0-7560-4d0e-bb7d-431c76acac7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rays And Raycasting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rays And Raycasting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BasicImplementation.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BasicImplementation.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CreeepingAttackWave.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CreeepingAttackWave.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MouseRays.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MouseRays.unity" afterDir="false" />
-    </list>
+    <list default="true" id="ffb640b0-7560-4d0e-bb7d-431c76acac7a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,58 +11,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RayCasting.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
-              <folding>
-                <marker date="1545212889846" expanded="false" signature="6:117" ph="..." />
-                <marker date="1545212889846" expanded="true" signature="158:2085" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="407:736" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="713:733" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="751:1651" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
-                <marker date="1545212889846" expanded="true" signature="1263:1647" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="1308:1643" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="1681:1818" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="1845:2083" ph="{...}" />
-                <marker date="1545212889846" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnemyScript.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
-              <folding>
-                <marker date="1573468292194" expanded="false" signature="6:100" ph="..." />
-                <marker date="1573468292194" expanded="true" signature="142:1483" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
-                <marker date="1573468292194" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
-                <marker date="1573468292194" expanded="true" signature="636:740" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="674:737" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="788:958" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="1012:1203" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="1240:1374" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="1266:1298" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="1329:1369" ph="{...}" />
-                <marker date="1573468292194" expanded="true" signature="1411:1481" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ParticleKiller.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ParticleKiller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state>
               <folding>
-                <marker date="1545053023432" expanded="true" signature="6:92" ph="..." />
+                <marker date="1545053023432" expanded="false" signature="6:92" ph="..." />
                 <marker date="1545053023432" expanded="true" signature="138:194" ph="{...}" />
                 <marker date="1545053023432" expanded="true" signature="154:192" ph="{...}" />
               </folding>
@@ -76,36 +24,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MouseClickRay.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs">
+      <file leaf-file-name="EnemyScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="335">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
-                <marker date="1573467567773" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573467567773" expanded="true" signature="122:1297" ph="{...}" />
-                <marker date="1573467567773" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
-                <marker date="1573467567773" expanded="true" signature="363:506" ph="{...}" />
-                <marker date="1573467567773" expanded="true" signature="481:503" ph="{...}" />
-                <marker date="1573467567773" expanded="true" signature="525:1295" ph="{...}" />
-                <marker date="1573467567773" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
-                <marker date="1573467567773" expanded="true" signature="1012:1292" ph="{...}" />
-                <marker date="1573467567773" expanded="true" signature="1057:1288" ph="{...}" />
+                <marker date="1573730979776" expanded="false" signature="6:100" ph="..." />
+                <marker date="1573730979776" expanded="true" signature="142:1483" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
+                <marker date="1573730979776" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
+                <marker date="1573730979776" expanded="true" signature="636:740" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="674:737" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="788:958" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="1012:1203" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="1240:1374" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="1266:1298" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="1329:1369" ph="{...}" />
+                <marker date="1573730979776" expanded="true" signature="1411:1481" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIRotateToward.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs">
+      <file leaf-file-name="RayCasting.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RayCasting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-505">
               <folding>
-                <marker date="1545056041106" expanded="false" signature="6:100" ph="..." />
-                <marker date="1545056041106" expanded="true" signature="145:495" ph="{...}" />
-                <marker date="1545056041106" expanded="true" signature="224:270" ph="{...}" />
-                <marker date="1545056041106" expanded="true" signature="324:493" ph="{...}" />
+                <marker date="1573730979778" expanded="false" signature="6:117" ph="..." />
+                <marker date="1573730979778" expanded="true" signature="158:2085" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="407:736" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="713:733" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="751:1651" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
+                <marker date="1573730979778" expanded="true" signature="1263:1647" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="1308:1643" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="1681:1818" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="1845:2083" ph="{...}" />
+                <marker date="1573730979778" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MouseClickRay.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseClickRay.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1573730979777" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573730979777" expanded="true" signature="122:1297" ph="{...}" />
+                <marker date="1573730979777" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
+                <marker date="1573730979777" expanded="true" signature="363:506" ph="{...}" />
+                <marker date="1573730979777" expanded="true" signature="481:503" ph="{...}" />
+                <marker date="1573730979777" expanded="true" signature="525:1295" ph="{...}" />
+                <marker date="1573730979777" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
+                <marker date="1573730979777" expanded="true" signature="1012:1292" ph="{...}" />
+                <marker date="1573730979777" expanded="true" signature="1057:1288" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,11 +93,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/RayCasting.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RayCasting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleKiller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseClickRay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,6 +140,11 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Rays And Raycasting" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Rays And Raycasting" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +194,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12627000" />
+    <option name="totallyTimeSpent" value="13196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,7 +217,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17381974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -246,12 +226,27 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17381974" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,412 +257,110 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseClickRay.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state>
           <folding>
-            <marker date="1545212889846" expanded="false" signature="6:117" ph="..." />
-            <marker date="1545212889846" expanded="true" signature="158:2085" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="407:736" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="713:733" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="751:1651" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
-            <marker date="1545212889846" expanded="true" signature="1263:1647" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1308:1643" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1681:1818" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1845:2083" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
+            <marker date="1573730979777" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573730979777" expanded="true" signature="122:1297" ph="{...}" />
+            <marker date="1573730979777" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
+            <marker date="1573730979777" expanded="true" signature="363:506" ph="{...}" />
+            <marker date="1573730979777" expanded="true" signature="481:503" ph="{...}" />
+            <marker date="1573730979777" expanded="true" signature="525:1295" ph="{...}" />
+            <marker date="1573730979777" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
+            <marker date="1573730979777" expanded="true" signature="1012:1292" ph="{...}" />
+            <marker date="1573730979777" expanded="true" signature="1057:1288" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="335">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <marker date="1573468292194" expanded="false" signature="6:100" ph="..." />
-            <marker date="1573468292194" expanded="true" signature="142:1483" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
-            <marker date="1573468292194" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
-            <marker date="1573468292194" expanded="true" signature="636:740" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="674:737" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="788:958" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1012:1203" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1240:1374" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1266:1298" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1329:1369" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1411:1481" ph="{...}" />
+            <marker date="1573730979776" expanded="false" signature="6:100" ph="..." />
+            <marker date="1573730979776" expanded="true" signature="142:1483" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
+            <marker date="1573730979776" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
+            <marker date="1573730979776" expanded="true" signature="636:740" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="674:737" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="788:958" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="1012:1203" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="1240:1374" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="1266:1298" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="1329:1369" ph="{...}" />
+            <marker date="1573730979776" expanded="true" signature="1411:1481" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RayCasting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="-505">
           <folding>
-            <marker date="1545053023432" expanded="true" signature="6:92" ph="..." />
-            <marker date="1545053023432" expanded="true" signature="138:194" ph="{...}" />
-            <marker date="1545053023432" expanded="true" signature="154:192" ph="{...}" />
+            <marker date="1573730979778" expanded="false" signature="6:117" ph="..." />
+            <marker date="1573730979778" expanded="true" signature="158:2085" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="407:736" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="713:733" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="751:1651" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
+            <marker date="1573730979778" expanded="true" signature="1263:1647" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="1308:1643" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="1681:1818" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="1845:2083" ph="{...}" />
+            <marker date="1573730979778" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <marker date="1545056041106" expanded="false" signature="6:100" ph="..." />
-            <marker date="1545056041106" expanded="true" signature="145:495" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="224:270" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="324:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <marker date="1573467567773" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573467567773" expanded="true" signature="122:1297" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
-            <marker date="1573467567773" expanded="true" signature="363:506" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="481:503" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="525:1295" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
-            <marker date="1573467567773" expanded="true" signature="1012:1292" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="1057:1288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <marker date="1545212889846" expanded="false" signature="6:117" ph="..." />
-            <marker date="1545212889846" expanded="true" signature="158:2085" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="407:736" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="713:733" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="751:1651" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
-            <marker date="1545212889846" expanded="true" signature="1263:1647" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1308:1643" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1681:1818" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1845:2083" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <marker date="1573468292194" expanded="false" signature="6:100" ph="..." />
-            <marker date="1573468292194" expanded="true" signature="142:1483" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
-            <marker date="1573468292194" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
-            <marker date="1573468292194" expanded="true" signature="636:740" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="674:737" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="788:958" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1012:1203" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1240:1374" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1266:1298" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1329:1369" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1411:1481" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1545053023432" expanded="true" signature="6:92" ph="..." />
-            <marker date="1545053023432" expanded="true" signature="138:194" ph="{...}" />
-            <marker date="1545053023432" expanded="true" signature="154:192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <marker date="1545056041106" expanded="false" signature="6:100" ph="..." />
-            <marker date="1545056041106" expanded="true" signature="145:495" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="224:270" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="324:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="100" selection-start-line="41" selection-start-column="100" selection-end-line="41" selection-end-column="100" />
-          <folding>
-            <marker date="1573467567773" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573467567773" expanded="true" signature="122:1297" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
-            <marker date="1573467567773" expanded="true" signature="363:506" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="481:503" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="525:1295" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
-            <marker date="1573467567773" expanded="true" signature="1012:1292" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="1057:1288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-          <folding>
-            <marker date="1545212889846" expanded="false" signature="6:117" ph="..." />
-            <marker date="1545212889846" expanded="true" signature="158:2085" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="407:736" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="713:733" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="751:1651" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
-            <marker date="1545212889846" expanded="true" signature="1263:1647" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1308:1643" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1681:1818" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1845:2083" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <marker date="1573468292194" expanded="false" signature="6:100" ph="..." />
-            <marker date="1573468292194" expanded="true" signature="142:1483" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
-            <marker date="1573468292194" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
-            <marker date="1573468292194" expanded="true" signature="636:740" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="674:737" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="788:958" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1012:1203" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1240:1374" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1266:1298" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1329:1369" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1411:1481" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1545053023432" expanded="true" signature="6:92" ph="..." />
-            <marker date="1545053023432" expanded="true" signature="138:194" ph="{...}" />
-            <marker date="1545053023432" expanded="true" signature="154:192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <marker date="1573467567773" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573467567773" expanded="true" signature="122:1297" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
-            <marker date="1573467567773" expanded="true" signature="363:506" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="481:503" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="525:1295" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
-            <marker date="1573467567773" expanded="true" signature="1012:1292" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="1057:1288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <marker date="1545056041106" expanded="false" signature="6:100" ph="..." />
-            <marker date="1545056041106" expanded="true" signature="145:495" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="224:270" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="324:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="97" selection-start-line="41" selection-start-column="97" selection-end-line="41" selection-end-column="97" />
-          <folding>
-            <marker date="1545212889846" expanded="false" signature="6:117" ph="..." />
-            <marker date="1545212889846" expanded="true" signature="158:2085" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="407:736" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="713:733" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="751:1651" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
-            <marker date="1545212889846" expanded="true" signature="1263:1647" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1308:1643" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1681:1818" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1845:2083" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
-          <folding>
-            <marker date="1573468292194" expanded="false" signature="6:100" ph="..." />
-            <marker date="1573468292194" expanded="true" signature="142:1483" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
-            <marker date="1573468292194" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
-            <marker date="1573468292194" expanded="true" signature="636:740" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="674:737" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="788:958" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1012:1203" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1240:1374" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1266:1298" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1329:1369" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1411:1481" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1545053023432" expanded="true" signature="6:92" ph="..." />
-            <marker date="1545053023432" expanded="true" signature="138:194" ph="{...}" />
-            <marker date="1545053023432" expanded="true" signature="154:192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1573467567773" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573467567773" expanded="true" signature="122:1297" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
-            <marker date="1573467567773" expanded="true" signature="363:506" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="481:503" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="525:1295" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
-            <marker date="1573467567773" expanded="true" signature="1012:1292" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="1057:1288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1545053023432" expanded="true" signature="6:92" ph="..." />
-            <marker date="1545053023432" expanded="true" signature="138:194" ph="{...}" />
-            <marker date="1545053023432" expanded="true" signature="154:192" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1545056041106" expanded="false" signature="6:100" ph="..." />
-            <marker date="1545056041106" expanded="true" signature="145:495" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="224:270" ph="{...}" />
-            <marker date="1545056041106" expanded="true" signature="324:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
-          <folding>
-            <marker date="1573468292194" expanded="false" signature="6:100" ph="..." />
-            <marker date="1573468292194" expanded="true" signature="142:1483" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="148:228" ph="/* This script defines the behaviour of our enemies ... */" />
-            <marker date="1573468292194" expanded="true" signature="491:614" ph="/* This is a public property which can be accessed from other scripts. ... */" />
-            <marker date="1573468292194" expanded="true" signature="636:740" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="674:737" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="788:958" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1012:1203" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1240:1374" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1266:1298" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1329:1369" ph="{...}" />
-            <marker date="1573468292194" expanded="true" signature="1411:1481" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
-          <folding>
-            <marker date="1545212889846" expanded="false" signature="6:117" ph="..." />
-            <marker date="1545212889846" expanded="true" signature="158:2085" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="407:736" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="713:733" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="751:1651" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="757:989" ph="/* This function is called on every mouse click, it creates a new ray ... */" />
-            <marker date="1545212889846" expanded="true" signature="1263:1647" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1308:1643" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1681:1818" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1845:2083" ph="{...}" />
-            <marker date="1545212889846" expanded="true" signature="1851:2019" ph="/* This function is responsible for spawning our impact particles ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <marker date="1573467567773" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573467567773" expanded="true" signature="122:1297" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="126:269" ph="/* This script generates a raycast based on mouseposition / click ... */" />
-            <marker date="1573467567773" expanded="true" signature="363:506" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="481:503" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="525:1295" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="531:761" ph="/* Here we declare a new variable of type Ray called ray - and initialise it using a function of the Camera class ... */" />
-            <marker date="1573467567773" expanded="true" signature="1012:1292" ph="{...}" />
-            <marker date="1573467567773" expanded="true" signature="1057:1288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ParticleKiller.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UIRotateToward.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EnemyScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RayCasting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MouseClickRay.cs" />
   </component>
 </project>
