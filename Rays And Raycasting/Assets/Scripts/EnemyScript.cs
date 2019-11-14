@@ -53,6 +53,10 @@ public class EnemyScript : MonoBehaviour
 		transform.Translate(relPos * speed);
 	}
 
+	
+	
+	// The TakeDamage function can be accessed from other scripts to modify the 
+	// enemies HP property
 	public void TakeDamage(int damage)
 	{
 
